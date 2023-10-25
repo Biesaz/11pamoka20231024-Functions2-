@@ -34,7 +34,7 @@
 
 # numbers: List[int]) -> int:
 
-def multiply_by_sum(num_sum, *numbers):
+def multiply_by_sum(num_sum, *numbers):                 #GPT
     result = [num * num_sum for num in numbers]
     return result
 
